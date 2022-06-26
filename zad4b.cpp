@@ -27,7 +27,7 @@ long double leibnizSeries()
 		cnt++;
 	}while( fabs(sum-tmp) > 0.000000001 );
 	
-	std::cout << "Approximation after " << cnt-1 << " loops:" << '\n' << 4*sum << '\n';
+	std::cout << "Approximation after " << cnt << " loops:" << '\n' << 4*sum << '\n';
 	
 	return 4*sum;
-}
+
